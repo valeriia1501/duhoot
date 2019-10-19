@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Duhoot</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <nav class="nav">
+            <a href="#" class="nav__link">Reality</a>
+            <a href="#" class="nav__link">Living</a>
+            <a href="#" class="nav__link">EduCation</a>
+            <a href="#" class="nav__link">Entertainment</a>
+            <a href="#" class="nav__link">Mobility</a>
+        </nav>
+        <div class="header__buttons">
+            <a href="#" class="header__buttons-search"></a>
+            <a href="#" class="header__buttons-account">Login</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="search">
+            <div class="search-wrap">
+                <div class="search-wrap-color">
+                    <h1 class="search-wrap-color__title">What are you looking for?</h1>
+                    <form action="#" class="form" method="post">
+                        <div class="form__selects">
+                            <select class="form__selects-block" name="city">
+                                <option value="Dubai">Dubai</option>
+                                <option value="London">London</option>
+                                <option value="New York">New York</option>
+                                <option value="Paris">Paris</option>
+                            </select>
+                            <select class="form__selects-block" name="purpose">
+                                <option value="Education">Education</option>
+                                <option value="Working">Working</option>
+                                <option value="Tourism">Tourism</option>
+                                <option value="Immigration">Immigration</option>
+                            </select>
+                        </div>
+                        <input type="text" class="form__input" value="Keyword, name, date, ...">
+                        <button class="form__button">Search</button> 
+                    </form>
+                </div>
+            </div>   
+        </div>
+        <nav class="sec-nav">
+            <div class="sec-nav-wrap container">
+                <div class="sec-nav-menu">
+                    <a href="#" class="sec-nav-menu__link">Recommended</a>
+                    <a href="#" class="sec-nav-menu__link">latest</a>
+                    <a href="#" class="sec-nav-menu__link">Highlights</a>
+                </div>
+                <div class="sec-nav-search">
+                    <form action="#" class="sec-nav-search__form" method="post">
+                        <select name="city" class="sec-nav-search__form-select">
+                            <option value="Dubai">Dubai</option>
+                            <option value="London">London</option>
+                            <option value="New York">New York</option>
+                            <option value="Paris">Paris</option>
+                        </select>
+                        <button class="sec-nav-search__form-button">hide map</button>
+                    </form>
+                </div>
+                <div class="sec-nav-filter">
+                    <div class="sec-nav-filter__text">Filter:</div>
+                    <a href="#" class="sec-nav-filter__pict sec-nav-filter__pict_green"><img class="sec-nav-filter__pict-img" src="images/home.png" alt="Home"></a>
+                    <a href="#" class="sec-nav-filter__pict"><img class="sec-nav-filter__pict-img" src="images/service.png" alt="Service"></a>
+                    <a href="#" class="sec-nav-filter__pict"><img class="sec-nav-filter__pict-img" src="images/education.png" alt="Education"></a>
+                    <a href="#" class="sec-nav-filter__pict sec-nav-filter__pict_orange"><img class="sec-nav-filter__pict-img" src="images/music.png" alt="Music"></a>
+                    <a href="#" class="sec-nav-filter__pict sec-nav-filter__pict_purple"><img class="sec-nav-filter__pict-img" src="images/transport.png" alt="Transport"></a>
+                </div>
+            </div>    
+        </nav>
+        <div class="major">
+            <div class="cards container">
+                <div class="cards-wrap">
+                    <div class="cards-house">
+                        <div class="cards-house__price">$2,990</div>
+                        <a href="#" class="cards-house__icon"></a>
+                        <div class="cards-house__text">2 bedroom house for rent in Dubai</div>
+                        <div class="cards-house__place">Vision Agency</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(365)</div>
+                        </div>
+                    </div>
+                    <div class="cards-party">
+                        <a href="#" class="cards-party__icon"></a>
+                        <div class="cards-party__text">Beach party festival 2014</div>
+                        <div class="cards-party__place">Long beach</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(1165)</div>
+                        </div>
+                    </div>
+                    <div class="cards-transport">
+                        <div class="cards-transport-wrap">
+                            <a href="#" class="cards-transport__show">
+                                <div class="fas fa-search cards-transport__show-img"></div>
+                                Show more
+                            </a>
+                            <div class="cards-transport__imgs">
+                                <div class="far fa-star cards-transport__imgs-star"></div>
+                                <div class="far fa-star cards-transport__imgs-star"></div>
+                                <div class="far fa-star cards-transport__imgs-star"></div>
+                                <div class="far fa-star cards-transport__imgs-star"></div>
+                                <div class="far fa-star cards-transport__imgs-star"></div>
+                                <div class="far fa-comments cards-transport__imgs-comments"></div>
+                            </div>
+                        </div>
+                        <a href="#" class="cards-transport__icon"></a>
+                        <div class="cards-transport__text">Aliquam quis pulvinar purus</div>
+                        <div class="cards-transport__place">Bus Trans</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(365)</div>
+                        </div>
+                    </div>
+                    <div class="cards-house cards-house_4rooms">
+                        <div class="cards-house__price">$2,990</div>
+                        <a href="#" class="cards-house__icon"></a>
+                        <div class="cards-house__text">4 bedroom house for rent in Dubai</div>
+                        <div class="cards-house__place">reality Agency</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(165)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-wrap">
+                    <div class="cards-agency">
+                        <div class="cards-agency-wrap">
+                            <div class="cards-agency__title">
+                                <div class="cards-agency__title-text">Vision agency</div>
+                                <div class="cards__rating">
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="far fa-star cards__rating-star"></div>
+                                    <div class="cards__rating-number cards__rating-number_white">(365)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="cards-agency__icon"></a>
+                        <div class="cards-agency__main">
+                            <div class="cards-agency__main-photo"></div>
+                            <div class="cards-agency__main-info">
+                                <div class="cards__rating cards__rating_big">
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="far fa-star cards__rating-star_big"></div>
+                                    <div class="far fa-star cards__rating-star_big"></div>
+                                </div>
+                                <div class="cards-agency__main-name">Lucy-P</div>
+                                <div class="cards-agency__main-text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus
+                                    ipsum quis enim faucibus, quis posuere orci
+                                    ornare. Duis mattis sagittis fringilla.” 
+                                    <a href="#" class="cards-agency__main-link">...read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-club">
+                        <div class="cards-club-wrap">
+                            <div class="cards-club__title">
+                                <div class="cards-club__title-text">Skybox club</div>
+                                <div class="cards__rating">
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="cards__rating-number cards__rating-number_white">(1365)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="cards-club__icon"></a>
+                        <div class="cards-club__main">
+                            <div class="cards-club__main-photo"></div>
+                            <div class="cards-club__main-info">
+                                <div class="cards__rating cards__rating_big">
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                </div>
+                                <div class="cards-club__main-name">Peter145</div>
+                                <div class="cards-club__main-text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus
+                                    ipsum quis enim faucibus, quis posuere orci
+                                    ornare. Duis mattis sagittis fringilla.” 
+                                    <a href="#" class="cards-club__main-link">...read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-wrap">
+                    <div class="cards-house">
+                        <div class="cards-house__price">$2,990</div>
+                        <a href="#" class="cards-house__icon"></a>
+                        <div class="cards-house__text">2 bedroom house for rent in Dubai</div>
+                        <div class="cards-house__place">Vision Agency</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(365)</div>
+                        </div>
+                    </div>
+                    <div class="cards-party">
+                        <a href="#" class="cards-party__icon"></a>
+                        <div class="cards-party__text">Beach party festival 2014</div>
+                        <div class="cards-party__place">Long beach</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(1165)</div>
+                        </div>
+                    </div>
+                    <div class="cards-transport cards-transport_normal">
+                        <a href="#" class="cards-transport__icon"></a>
+                        <div class="cards-transport__text cards-transport__text_normal">Aliquam quis pulvinar purus</div>
+                        <div class="cards-transport__place">Bus Trans</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(365)</div>
+                        </div>
+                    </div>
+                    <div class="cards-house cards-house_4rooms">
+                        <div class="cards-house__price">$2,990</div>
+                        <a href="#" class="cards-house__icon"></a>
+                        <div class="cards-house__text">4 bedroom house for rent in Dubai</div>
+                        <div class="cards-house__place">reality Agency</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(165)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-wrap">
+                    <div class="cards-club">
+                        <div class="cards-club-wrap">
+                            <div class="cards-club__title">
+                                <div class="cards-club__title-text">Skybox club</div>
+                                <div class="cards__rating">
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="fas fa-star cards__rating-star"></div>
+                                    <div class="cards__rating-number cards__rating-number_white">(1365)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="cards-club__icon"></a>
+                        <div class="cards-club__main">
+                            <div class="cards-club__main-photo"></div>
+                            <div class="cards-club__main-info">
+                                <div class="cards__rating cards__rating_big">
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                    <div class="fas fa-star cards__rating-star_big"></div>
+                                </div>
+                                <div class="cards-club__main-name">Peter145</div>
+                                <div class="cards-club__main-text">
+                                    “Aliquam quis pulvinar purus. Etiam cursus
+                                    ipsum quis enim faucibus, quis posuere orci
+                                    ornare. Duis mattis sagittis fringilla.” 
+                                    <a href="#" class="cards-club__main-link">...read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-house">
+                        <div class="cards-house__price">$2,990</div>
+                        <a href="#" class="cards-house__icon"></a>
+                        <div class="cards-house__text">2 bedroom house for rent in Dubai</div>
+                        <div class="cards-house__place">Vision Agency</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="far fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(365)</div>
+                        </div>
+                    </div>
+                    <div class="cards-party">
+                        <a href="#" class="cards-party__icon"></a>
+                        <div class="cards-party__text">Beach party festival 2014</div>
+                        <div class="cards-party__place">Long beach</div>
+                        <div class="cards__rating">
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="fas fa-star cards__rating-star"></div>
+                            <div class="cards__rating-number">(1165)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-load">
+                    <a href="#" class="cards-load__link">Load more</a>
+                    <div class="fas fa-long-arrow-alt-right cards-load__arrow"></div>
+                </div>   
+            </div>
+            <div class="offer container">
+                <h2 class="offer__title">What can DuHoot offer to you?</h2>
+                <div class="offer__text">Etiam cursus ipsum quis enim faucibus</div>
+                <div class="offer__links">
+                    <a href="#" class="offer__link offer__link_home"></a>
+                    <a href="#" class="offer__link offer__link_service"></a>
+                    <a href="#" class="offer__link offer__link_education"></a>
+                    <a href="#" class="offer__link offer__link_music"></a>
+                    <a href="#" class="offer__link offer__link_transport offer__link_last"></a>
+                </div>
+                <div class="offer__reality">Reality</div>
+                <div class="offer__blocks">
+                    <div class="offer__block">
+                        <a href="#" class="offer__block-img fas fa-bolt"></a>
+                        <div class="offer__block-text">
+                            Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, 
+                            vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+                        </div>
+                    </div>
+                    <div class="offer__block">
+                        <a href="#" class="offer__block-img fas fa-leaf"></a>
+                        <div class="offer__block-text">
+                            Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, 
+                            vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-container container">
+                <h2 class="footer__title">Subscribe to our newsletter</h2>
+                <div class="footer__form">
+                    <form action="#" class="form" method="post">
+                        <label class="footer__label">
+                            <div class="far fa-envelope footer__letter"></div>
+                            <input type="text" class="form__input footer__input" value="your@email.com">
+                        </label>
+                        <button class="form__button footer__button">Subscribe</button> 
+                    </form>
+                </div>
+                <div class="footer__blocks">
+                    <div class="footer__block">
+                        <a href="#" class="footer__block-link">Ipsum quis</a>
+                        <div class="footer__block-text">
+                            Aliquam quis<br>
+                            Pulvinar purus<br>
+                            Etiam cursus<br>
+                            Ipsum quis<br>
+                            Enim faucibus
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <a href="#" class="footer__block-link">Ipsum quis</a>
+                        <div class="footer__block-text">
+                            Aliquam quis<br>
+                            Pulvinar purus<br>
+                            Etiam cursus<br>
+                            Ipsum quis<br>
+                            Enim faucibus
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <a href="#" class="footer__block-link">Follow us</a>
+                        <div class="footer__block-social">
+                            <a href="#" class="fab fa-facebook-f footer__block-net"></a>
+                            <a href="#" class="fab fa-twitter footer__block-net"></a>
+                            <a href="#" class="footer__block-google"></a>
+                            <a href="#" class="footer__block-youtube"></a>
+                        </div>
+                        <div class="footer__block-copyright">Copyright © All Rights reserved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
